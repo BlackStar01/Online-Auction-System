@@ -33,6 +33,9 @@
     <ClCompile Include="ReservedAuction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Bid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="User.h">
@@ -48,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ReservedAuction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

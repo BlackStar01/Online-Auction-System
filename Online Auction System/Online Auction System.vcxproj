@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Auction.cpp" />
+    <ClCompile Include="Bid.cpp" />
     <ClCompile Include="Items.cpp" />
     <ClCompile Include="Online Auction System.cpp" />
     <ClCompile Include="RegularAuction.cpp" />
@@ -136,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Auction.h" />
+    <ClInclude Include="Bid.h" />
     <ClInclude Include="Items.h" />
     <ClInclude Include="RegularAuction.h" />
     <ClInclude Include="ReservedAuction.h" />

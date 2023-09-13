@@ -2,6 +2,7 @@
 #define USER_H
 
 #include <iostream>
+#include "Auction.h"
 using namespace std;
 
 class User
@@ -19,12 +20,11 @@ public:
 
 	string get_username() {}
 	string get_password() {}
-	string get_balance() {}
-	void set_username(string username) {}
-	void set_password(string username) {}
-	void set_balance(string username) {}
+	float get_balance() {}
+	void set_username(string new_username) {}
+	void set_password(string new_password) {}
+	void set_balance(float new_balance) {}
 
-	void suscribe_auction(const Auction& auction);
 	void make_bid(const Auction& auction, float bid);
 	void give_up(const Auction& auction);
 
